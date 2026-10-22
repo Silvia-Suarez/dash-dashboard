@@ -24,7 +24,7 @@ app.layout= html.Div([
         placeholder="Seleccione una especie"
     ),
     dcc.RangeSlider(
-      id="slider_ancho",
+      id="slider-ancho",
       min=ancho_min,
       max=ancho_max,
       step=0.1,
